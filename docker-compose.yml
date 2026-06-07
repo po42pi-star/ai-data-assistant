@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    container_name: data-assistant
+    env_file:
+      - .env
+    ports:
+      - "${APP_PORT:-8080}:8080"
+    volumes:
+      - ./storage/uploads:/app/storage/uploads
+      - ./storage/outputs:/app/storage/outputs
+    restart: unless-stopped
