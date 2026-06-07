@@ -114,7 +114,7 @@
 
 ### Пример анализа файла
 
-![Chart Selection](screenshots/chart_analysis.png)
+![Chart Analysis](screenshots/chart_analysis.png)
 
 ### Результат — график в чате
 
