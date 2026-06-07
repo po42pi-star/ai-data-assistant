@@ -2,6 +2,8 @@
 
 # 🤖 Data Assistant — AI-ассистент для анализа данных
 
+**[Открыть веб-приложение](http://185.180.109.161:8080/)**
+
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Jinja2](https://img.shields.io/badge/Jinja2-3.1+-B1283E?style=flat-square&logo=jinja&logoColor=white)
@@ -36,7 +38,7 @@
 
 **Проблема:** Специалисты тратят значительное время на рутинные задачи анализа данных: построение графиков, создание отчётов, статистический анализ. Каждый инструмент требует отдельного обучения, а переключение между программами снижает продуктивность.
 
-**Решение:** Data Assistant сокращает время на аналитические задачи с часов до минут за счёт единого чат-интерфейса, где можно:
+**Решение:** **Data Assistant** сокращает время на аналитические задачи с часов до минут за счёт единого чат-интерфейса, где можно:
 - Загрузить файл и сразу получить анализ
 - Попросить построить любой график в 1–2 сообщениях
 - Экспортировать результаты в DOCX или markdown
@@ -44,7 +46,7 @@
 
 **Целевая аудитория:**
 - Владельцы бизнеса — быстрая аналитика продаж, финансов, KPI
-- Data Analysts — ускорение рутинных задач, фокус на сложных вопросах
+- **Data Assistant** — ускорение рутинных задач, фокус на сложных вопросах
 - Менеджеры проектов — отчёты и дашборды без Excel
 - Все, кто работает с данными — от студентов до руководителей
 
@@ -106,32 +108,24 @@
 
 ## 📸 Скриншоты
 
-### Главная страница — загрузка файла
+### Чат с загруженным файлом и выбор типа графика
 
-![Upload Page](docs/images/upload_page.png)
+![Chat Interface](screenshots/chat_interface.png)
 
-### Чат с загруженным файлом
+### Пример анализа файла
 
-![Chat Interface](docs/images/chat_interface.png)
-
-### Панель действий — выбор типа графика
-
-![Chart Selection](docs/images/chart_selection.png)
+![Chart Selection](screenshots/chart_analysis.png)
 
 ### Результат — график в чате
 
-![Chart Result](docs/images/chart_result.png)
-
-### Предпросмотр таблицы с анализом
-
-![Table Preview](docs/images/table_preview.png)
+![Chart Result](screenshots/chart_result.png)
 
 ---
 
 ## 🚀 Установка и настройка
 
 ### Предварительные требования
-
+chart_result.png
 - Python 3.11+
 - Docker Desktop (опционально)
 - API-ключ OpenAI (или прокси-сервер)
@@ -265,7 +259,6 @@ ai-data-assistant/
 │   ├── sample_sales.csv
 │   └── sample_chart_data.csv
 │
-├── .env                           # Конфигурация (НЕ коммитить!)
 ├── .env.example                   # Шаблон .env
 ├── .dockerignore
 ├── .gitignore
