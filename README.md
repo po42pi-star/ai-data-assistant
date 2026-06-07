@@ -265,7 +265,8 @@ ai-data-assistant/
 ├── docker-compose.yml             # Docker Compose конфиг
 ├── Dockerfile                     # Docker образ
 ├── requirements.txt               # Зависимости Python
-└── README.md                      # Документация
+├── README.md                      # Документация
+└── screenshots/                   # Скриншоты
 ```
 
 ---
